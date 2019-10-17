@@ -1,4 +1,4 @@
-# deadlack 조회 
+# deadlock 조회 
 
 ## 현재 테이블 lock 확인 
 
