@@ -19,7 +19,7 @@ ORDER BY
 ## 해당 작업 kill 
 
 ``` sql
-select pg_cancel_backend(pid); -- 해당 pid 중지  
+SELECT pg_cancel_backend(pid); -- 해당 pid 중지  
 
 SELECT pg_terminate_backend(pid) FROM pg_stat_activity ; -- 연계된 pid 전체 중지 
 ```
