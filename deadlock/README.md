@@ -62,3 +62,7 @@ JOIN   pg_catalog.pg_stat_activity blocking_activity
 ON     blocking_activity.pid = blocking_locks.pid
 WHERE  NOT blocked_locks.granted; 
 ```
+
+## REPERENCE
+- [https://wiki.postgresql.org/wiki/Lock_Monitoring](https://wiki.postgresql.org/wiki/Lock_Monitoring)
+- [https://www.postgresql.org/docs/9.1/explicit-locking.html](https://www.postgresql.org/docs/9.1/explicit-locking.html)
