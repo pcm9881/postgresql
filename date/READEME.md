@@ -29,3 +29,5 @@ select date_trunc('month', now()::date)
 ``` sql
 select date_trunc('month', now()::date) + interval '1 month' - interval '1 day'
 ```
+
+## 날짜 차이 
